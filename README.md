@@ -1,6 +1,6 @@
-# Disease-Normalization-with-Graph-Embeddings
+# Disease Normalization with Graph Embeddings
 
-## Table of Content:
+## Table of Contents:
 1. Basic training and Testing
 2. Structure of code
 3. Paper
