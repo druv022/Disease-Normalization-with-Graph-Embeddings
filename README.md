@@ -3,7 +3,7 @@
 ## Table of Content:
 1. Basic training and Testing
 2. Structure of code
-3. Thesis
+3. Paper
 
 ### Basic Usage:
     Please view the usage in train_NER_script.py, train_EL.py, train_MTL_script.py and test_NER.py, test_EL.py, test_MTL.py respectively for training and testing.
@@ -24,3 +24,6 @@ Folder descriptions:
 *  **utils**: Utility functions (with extra/old codes)
 *  **wvlib_master**: Package used to read pre-trained PubMed word embedding.
 
+### Paper:
+Please cite:
+Dhruba Pujary, Camilo Thorne, Wilker Aziz - **Disease Normalization with Graph Embeddings**, 2020, Proceedings of the IntelliSys 2020 conference (preprint: http://camilothorne.altervista.org/perso/intellisys-2020.pdf).
