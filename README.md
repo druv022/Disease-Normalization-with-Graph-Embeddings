@@ -26,4 +26,4 @@ Folder descriptions:
 
 ### Paper:
 Please cite:
-Dhruba Pujary, Camilo Thorne, Wilker Aziz - **Disease Normalization with Graph Embeddings**, 2020, Proceedings of the IntelliSys 2020 conference (preprint: http://camilothorne.altervista.org/perso/intellisys-2020.pdf).
+*  Dhruba Pujary, Camilo Thorne, Wilker Aziz - *Disease Normalization with Graph Embeddings*, 2020, Proceedings of the IntelliSys 2020 conference (preprint: http://camilothorne.altervista.org/perso/intellisys-2020.pdf).
