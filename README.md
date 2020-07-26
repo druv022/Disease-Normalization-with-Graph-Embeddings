@@ -25,5 +25,5 @@ Folder descriptions:
 *  **wvlib_master**: Package used to read pre-trained PubMed word embedding.
 
 ### Paper:
-Please cite:
-*  Dhruba Pujary, Camilo Thorne, Wilker Aziz - *Disease Normalization with Graph Embeddings*, 2020, Proceedings of the IntelliSys 2020 conference (preprint: http://camilothorne.altervista.org/perso/intellisys-2020.pdf).
+When referring to this work please cite:
+*  Dhruba Pujary, Camilo Thorne and Wilker Aziz, *Disease Normalization with Graph Embeddings*. 2020, Proceedings of the IntelliSys 2020 conference (preprint available at: http://camilothorne.altervista.org/perso/intellisys-2020.pdf).
