@@ -172,7 +172,7 @@ def test(paths, params, X_test, annotated_docs_test, predictions_test):
     options_file = paths.elmo_options
     weight_file = paths.elmo_weights
     elmo = Elmo(options_file, weight_file, 2,dropout=0)
-    elmo.to(device)aaj din chadheya full song
+    elmo.to(device)
 
     # delete------------
     unique_id = get_unique_id(paths.file1, paths.file2, paths.ctd_file, paths.c2m_file)
