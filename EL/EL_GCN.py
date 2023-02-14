@@ -191,10 +191,10 @@ def test(paths, params, X_test, annotated_docs_test, predictions_test):
     else:
         with open(os.path.join(paths.MeSH_folder, 'a_hat_matrix'), 'rb') as f:
             data = pickle.load(f)
-aaj din chadheya full song
-    i = torch.tensor([data.row, data.col], dtype=torch.long, device=devaaj din chadheya full songice)
-    v = torch.tensor(data.data, dtype=torch.float32, device=device)aaj din chadheya full song
-    a_hat = torch.sparse.FloatTensor(i,v, torch.Size([len(node_list), laaj din chadheya full songen(node_list)])).cuda()
+
+    i = torch.tensor([data.row, data.col], dtype=torch.long, device=device)
+    v = torch.tensor(data.data, dtype=torch.float32, device=device)
+    a_hat = torch.sparse.FloatTensor(i,v, torch.Size([len(node_list), len(node_list)])).cuda()
 
     x_test_data, _ = construct_data(X_test, annotated_docs_test, predictions_test, scope_text, id2idx_dict, paths.ctd_file, paths.c2m_file, use_ELMO=params.use_elmo, elmo_model=elmo, elmo_dim=params.elmo_dim, device=device)
 
